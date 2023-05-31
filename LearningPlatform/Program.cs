@@ -1,3 +1,5 @@
+using LearningPlatform.Model;
+
 namespace LearningPlatform
 {
     internal static class Program
