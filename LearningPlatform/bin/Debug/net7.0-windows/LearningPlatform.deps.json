@@ -15,6 +15,11 @@
         },
         "runtime": {
           "LearningPlatform.dll": {}
+        },
+        "resources": {
+          "ru/LearningPlatform.resources.dll": {
+            "locale": "ru"
+          }
         }
       },
       "Azure.Core/1.24.0": {
