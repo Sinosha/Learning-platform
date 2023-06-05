@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IDe2RBl1TyMPsfv+1WW2XKQfRfH0pKXkV+jfJWr1aJtC2+IwEt2cCoxJIRqGlqiSPFPrBpa0hu1wwlHGWJ1p+g==",
+  "dgSpecHash": "rwNsOdQevIRFn2RdadzB+uM9A7Ma4IksloLJWgcx4UraFurOTdy6bbEDFXBu0TuhANLTtbLa3RIy4wnsuxiCPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\Sinosha\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
+  "projectFilePath": "E:\\repos\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -20,7 +20,9 @@ namespace LearningPlatform.View
         {
             InitializeComponent();
             this.user = user;
-            LabelName.Text += user.PersonalData.FirstName.ToString() + user.PersonalData.SecondName.ToString();
+            user.PersonalData.FirstName = "Ivan";
+            user.PersonalData.SecondName = "Ivanovich";
+            LabelName.Text += user.PersonalData.FirstName.ToString() + " " + user.PersonalData.SecondName.ToString();
             #region
             this.SetStyle(ControlStyles.DoubleBuffer, true);
             this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
@@ -34,7 +36,8 @@ namespace LearningPlatform.View
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Thread thread = new Thread(() => { new UserForm(this.user).ShowDialog(); });
+            //Thread thread = new Thread(() => { new UserForm(this.user).ShowDialog(); });
+            new UserForm(this.user).ShowDialog();
         }
     }
 }
