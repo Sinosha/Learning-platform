@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\Sinosha\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj": {}
   },
   "projects": {
-    "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\Sinosha\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\Sinosha\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
         "projectName": "LearningPlatform",
-        "projectPath": "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
-        "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\Sinosha\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\Sinosha\\Learning-platform\\LearningPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +43,32 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Pbkdf2": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +88,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
