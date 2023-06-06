@@ -29,122 +29,86 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserForm));
-            pictureBox2 = new PictureBox();
-            LabelName = new Label();
-            LabelSecondName = new Label();
-            LabelPhone = new Label();
-            LabelMail = new Label();
-            LabelMark = new Label();
-            label6 = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Anchor = AnchorStyles.None;
-            pictureBox2.BackColor = Color.LightBlue;
-            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox2.ErrorImage = null;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.ImeMode = ImeMode.NoControl;
-            pictureBox2.Location = new Point(3, 5);
-            pictureBox2.Margin = new Padding(4, 3, 4, 3);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(166, 274);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 5;
-            pictureBox2.TabStop = false;
-            // 
-            // LabelName
-            // 
-            LabelName.AutoSize = true;
-            LabelName.BorderStyle = BorderStyle.Fixed3D;
-            LabelName.Location = new Point(186, 35);
-            LabelName.Name = "LabelName";
-            LabelName.Size = new Size(39, 17);
-            LabelName.TabIndex = 6;
-            LabelName.Text = "Имя: ";
-            // 
-            // LabelSecondName
-            // 
-            LabelSecondName.AutoSize = true;
-            LabelSecondName.BorderStyle = BorderStyle.Fixed3D;
-            LabelSecondName.Location = new Point(186, 74);
-            LabelSecondName.Name = "LabelSecondName";
-            LabelSecondName.Size = new Size(66, 17);
-            LabelSecondName.TabIndex = 7;
-            LabelSecondName.Text = "Фамилия: ";
-            // 
-            // LabelPhone
-            // 
-            LabelPhone.AutoSize = true;
-            LabelPhone.BorderStyle = BorderStyle.Fixed3D;
-            LabelPhone.Location = new Point(186, 118);
-            LabelPhone.Name = "LabelPhone";
-            LabelPhone.Size = new Size(109, 17);
-            LabelPhone.TabIndex = 8;
-            LabelPhone.Text = "Номер телефона: ";
-            // 
-            // LabelMail
-            // 
-            LabelMail.AutoSize = true;
-            LabelMail.BorderStyle = BorderStyle.Fixed3D;
-            LabelMail.Location = new Point(186, 155);
-            LabelMail.Name = "LabelMail";
-            LabelMail.Size = new Size(49, 17);
-            LabelMail.TabIndex = 9;
-            LabelMail.Text = "E-mail: ";
-            // 
-            // LabelMark
-            // 
-            LabelMark.AutoSize = true;
-            LabelMark.BorderStyle = BorderStyle.Fixed3D;
-            LabelMark.Location = new Point(186, 199);
-            LabelMark.Name = "LabelMark";
-            LabelMark.Size = new Size(93, 17);
-            LabelMark.TabIndex = 10;
-            LabelMark.Text = "Средний балл: ";
+            this.label6 = new System.Windows.Forms.Label();
+            this.LabelMark = new System.Windows.Forms.Label();
+            this.LabelMail = new System.Windows.Forms.Label();
+            this.LabelPhone = new System.Windows.Forms.Label();
+            this.LabelSecondName = new System.Windows.Forms.Label();
+            this.LabelName = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.SuspendLayout();
             // 
             // label6
             // 
-            label6.AutoSize = true;
-            label6.BorderStyle = BorderStyle.FixedSingle;
-            label6.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(3, 295);
-            label6.Name = "label6";
-            label6.Size = new Size(232, 22);
-            label6.TabIndex = 11;
-            label6.Text = "↑ Это ваша фотография (якобы)";
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label6.Name = "label6";
+            // 
+            // LabelMark
+            // 
+            resources.ApplyResources(this.LabelMark, "LabelMark");
+            this.LabelMark.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.LabelMark.Name = "LabelMark";
+            // 
+            // LabelMail
+            // 
+            resources.ApplyResources(this.LabelMail, "LabelMail");
+            this.LabelMail.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.LabelMail.Name = "LabelMail";
+            // 
+            // LabelPhone
+            // 
+            resources.ApplyResources(this.LabelPhone, "LabelPhone");
+            this.LabelPhone.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.LabelPhone.Name = "LabelPhone";
+            // 
+            // LabelSecondName
+            // 
+            resources.ApplyResources(this.LabelSecondName, "LabelSecondName");
+            this.LabelSecondName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.LabelSecondName.Name = "LabelSecondName";
+            // 
+            // LabelName
+            // 
+            resources.ApplyResources(this.LabelName, "LabelName");
+            this.LabelName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.LabelName.Name = "LabelName";
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.BackColor = System.Drawing.Color.LightBlue;
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
             // 
             // UserForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(393, 362);
-            Controls.Add(label6);
-            Controls.Add(LabelMark);
-            Controls.Add(LabelMail);
-            Controls.Add(LabelPhone);
-            Controls.Add(LabelSecondName);
-            Controls.Add(LabelName);
-            Controls.Add(pictureBox2);
-            Name = "UserForm";
-            Text = "Окно пользователя";
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.LabelMark);
+            this.Controls.Add(this.LabelMail);
+            this.Controls.Add(this.LabelPhone);
+            this.Controls.Add(this.LabelSecondName);
+            this.Controls.Add(this.LabelName);
+            this.Controls.Add(this.pictureBox2);
+            this.Name = "UserForm";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private PictureBox pictureBox2;
-        private Label LabelName;
-        private Label LabelSecondName;
-        private Label LabelPhone;
-        private Label LabelMail;
-        private Label LabelMark;
         private Label label6;
+        private Label LabelMark;
+        private Label LabelMail;
+        private Label LabelPhone;
+        private Label LabelSecondName;
+        private Label LabelName;
+        private PictureBox pictureBox2;
     }
 }

@@ -11,7 +11,7 @@ namespace LearningPlatform
     public partial class AuthorizationForm : Form
     {
         private readonly LearningPlatformDbContext _context;
-        public User? user = new User();
+        public User user = new User();
         public Encrypt encrypt = new Encrypt();
 
         public AuthorizationForm()
@@ -48,7 +48,6 @@ namespace LearningPlatform
             string tempPassword = PasswordTextBox.Text;
             if (user != null)
             {
-                
                 if ((encrypt.HashPassword(tempPassword, user.Salt)) == user.Password)
                 {
                     this.Close();
@@ -65,6 +64,7 @@ namespace LearningPlatform
                 Label.Visible = true;
             }
         }
+
 
     }
 

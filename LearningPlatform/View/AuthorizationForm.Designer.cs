@@ -29,98 +29,98 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AuthorizationForm));
-            LoginTextBox = new TextBox();
-            PasswordTextBox = new TextBox();
-            pictureBox1 = new PictureBox();
-            InputButton = new Button();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            PasswordCheckBox = new CheckBox();
-            Label = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            SuspendLayout();
+            this.LoginTextBox = new System.Windows.Forms.TextBox();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.InputButton = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.PasswordCheckBox = new System.Windows.Forms.CheckBox();
+            this.Label = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.SuspendLayout();
             // 
             // LoginTextBox
             // 
-            resources.ApplyResources(LoginTextBox, "LoginTextBox");
-            LoginTextBox.BackColor = Color.LightBlue;
-            LoginTextBox.BorderStyle = BorderStyle.None;
-            LoginTextBox.Name = "LoginTextBox";
-            LoginTextBox.ShortcutsEnabled = false;
+            resources.ApplyResources(this.LoginTextBox, "LoginTextBox");
+            this.LoginTextBox.BackColor = System.Drawing.Color.LightBlue;
+            this.LoginTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.LoginTextBox.Name = "LoginTextBox";
+            this.LoginTextBox.ShortcutsEnabled = false;
             // 
             // PasswordTextBox
             // 
-            resources.ApplyResources(PasswordTextBox, "PasswordTextBox");
-            PasswordTextBox.BackColor = Color.LightBlue;
-            PasswordTextBox.BorderStyle = BorderStyle.None;
-            PasswordTextBox.CausesValidation = false;
-            PasswordTextBox.Name = "PasswordTextBox";
-            PasswordTextBox.UseSystemPasswordChar = true;
+            resources.ApplyResources(this.PasswordTextBox, "PasswordTextBox");
+            this.PasswordTextBox.BackColor = System.Drawing.Color.LightBlue;
+            this.PasswordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PasswordTextBox.CausesValidation = false;
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.UseSystemPasswordChar = true;
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(pictureBox1, "pictureBox1");
-            pictureBox1.BackColor = SystemColors.Control;
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.TabStop = false;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // InputButton
             // 
-            resources.ApplyResources(InputButton, "InputButton");
-            InputButton.BackColor = Color.LightBlue;
-            InputButton.Name = "InputButton";
-            InputButton.UseVisualStyleBackColor = false;
-            InputButton.Click += InputButton_Click;
+            resources.ApplyResources(this.InputButton, "InputButton");
+            this.InputButton.BackColor = System.Drawing.Color.LightBlue;
+            this.InputButton.Name = "InputButton";
+            this.InputButton.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
-            resources.ApplyResources(pictureBox2, "pictureBox2");
-            pictureBox2.BackColor = Color.LightBlue;
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.TabStop = false;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.BackColor = System.Drawing.Color.LightBlue;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            resources.ApplyResources(pictureBox3, "pictureBox3");
-            pictureBox3.BackColor = Color.LightBlue;
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.TabStop = false;
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.BackColor = System.Drawing.Color.LightBlue;
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
             // 
             // PasswordCheckBox
             // 
-            resources.ApplyResources(PasswordCheckBox, "PasswordCheckBox");
-            PasswordCheckBox.BackColor = Color.LightBlue;
-            PasswordCheckBox.BackgroundImage = Properties.Resources.ClosedEyeIcon;
-            PasswordCheckBox.Name = "PasswordCheckBox";
-            PasswordCheckBox.UseMnemonic = false;
-            PasswordCheckBox.UseVisualStyleBackColor = false;
+            resources.ApplyResources(this.PasswordCheckBox, "PasswordCheckBox");
+            this.PasswordCheckBox.BackColor = System.Drawing.Color.LightBlue;
+            this.PasswordCheckBox.BackgroundImage = global::LearningPlatform.Properties.Resources.ClosedEyeIcon;
+            this.PasswordCheckBox.Name = "PasswordCheckBox";
+            this.PasswordCheckBox.UseMnemonic = false;
+            this.PasswordCheckBox.UseVisualStyleBackColor = false;
             // 
             // Label
             // 
-            resources.ApplyResources(Label, "Label");
-            Label.ForeColor = Color.Red;
-            Label.Name = "Label";
+            resources.ApplyResources(this.Label, "Label");
+            this.Label.ForeColor = System.Drawing.Color.Red;
+            this.Label.Name = "Label";
             // 
             // AuthorizationForm
             // 
             resources.ApplyResources(this, "$this");
-            AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(Label);
-            Controls.Add(PasswordCheckBox);
-            Controls.Add(pictureBox3);
-            Controls.Add(pictureBox2);
-            Controls.Add(InputButton);
-            Controls.Add(pictureBox1);
-            Controls.Add(PasswordTextBox);
-            Controls.Add(LoginTextBox);
-            Name = "AuthorizationForm";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.Label);
+            this.Controls.Add(this.PasswordCheckBox);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.InputButton);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PasswordTextBox);
+            this.Controls.Add(this.LoginTextBox);
+            this.Name = "AuthorizationForm";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

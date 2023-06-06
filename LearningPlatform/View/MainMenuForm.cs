@@ -19,10 +19,6 @@ namespace LearningPlatform.View
         public MainMenuForm(User user)
         {
             InitializeComponent();
-            this.user = user;
-            user.PersonalData.FirstName = "Ivan";
-            user.PersonalData.SecondName = "Ivanovich";
-            LabelName.Text += user.PersonalData.FirstName.ToString() + " " + user.PersonalData.SecondName.ToString();
             #region
             this.SetStyle(ControlStyles.DoubleBuffer, true);
             this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
@@ -32,12 +28,41 @@ namespace LearningPlatform.View
             this.SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             this.SetStyle(ControlStyles.ResizeRedraw, true);
             #endregion
+            this.user = user;
+            //LabelName.Text += user.PersonalData.FirstName.ToString() + user.PersonalData.SecondName.ToString();
+            
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            //Thread thread = new Thread(() => { new UserForm(this.user).ShowDialog(); });
-            new UserForm(this.user).ShowDialog();
+            Thread thread = new Thread(() => { new UserForm(this.user).ShowDialog(); });
+        }
+
+        private void TestsButton_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            if (new TestsForm().ShowDialog() == DialogResult.Cancel)
+            {
+                this.Visible = true;
+            }
+        }
+
+        private void VideoButton_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            if (new VideoForm().ShowDialog() == DialogResult.Cancel)
+            {
+                this.Visible = true;
+            }
+        }
+
+        private void ArticlesButton_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            if (new ArticlesForm().ShowDialog() == DialogResult.Cancel)
+            {
+                this.Visible = true;
+            }
         }
     }
 }
