@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj": {}
+    "D:\\Study\\С#\\Project\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj": {}
   },
   "projects": {
-    "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj": {
+    "D:\\Study\\С#\\Project\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
+        "projectUniqueName": "D:\\Study\\С#\\Project\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
         "projectName": "LearningPlatform",
-        "projectPath": "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
+        "projectPath": "D:\\Study\\С#\\Project\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\С#\\TeamProject\\Learning-platform\\Learning-platform\\LearningPlatform\\obj\\",
+        "outputPath": "D:\\Study\\С#\\Project\\Learning-platform\\LearningPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\SDK\\NuGetPackages"
@@ -44,6 +44,32 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Pbkdf2": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
