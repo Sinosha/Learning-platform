@@ -9,7 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controller\Authorization\" />
+    <Compile Remove="Controller\Authorization\**" />
+    <EmbeddedResource Remove="Controller\Authorization\**" />
+    <None Remove="Controller\Authorization\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Image\" />
   </ItemGroup>
 

@@ -36,7 +36,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.PasswordCheckBox = new System.Windows.Forms.CheckBox();
-            this.Label = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -72,6 +71,7 @@
             this.InputButton.BackColor = System.Drawing.Color.LightBlue;
             this.InputButton.Name = "InputButton";
             this.InputButton.UseVisualStyleBackColor = false;
+            this.InputButton.Click += new System.EventHandler(this.InputButton_Click_1);
             // 
             // pictureBox2
             // 
@@ -96,17 +96,10 @@
             this.PasswordCheckBox.UseMnemonic = false;
             this.PasswordCheckBox.UseVisualStyleBackColor = false;
             // 
-            // Label
-            // 
-            resources.ApplyResources(this.Label, "Label");
-            this.Label.ForeColor = System.Drawing.Color.Red;
-            this.Label.Name = "Label";
-            // 
             // AuthorizationForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Label);
             this.Controls.Add(this.PasswordCheckBox);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -132,6 +125,5 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private CheckBox PasswordCheckBox;
-        private Label Label;
     }
 }

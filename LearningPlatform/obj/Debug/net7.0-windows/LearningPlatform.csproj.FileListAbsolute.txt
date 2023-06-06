@@ -248,3 +248,14 @@ E:\repos\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\refint\Lear
 E:\repos\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.pdb
 E:\repos\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.genruntimeconfig.cache
 E:\repos\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\ref\LearningPlatform.dll
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\bin\Debug\net7.0-windows\Pbkdf2.dll
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.ArticlesForm.resources
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.TestsForm.resources
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.UserForm.resources
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.VideoForm.resources
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.ArticlesForm.ru.resources
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.TestsForm.ru.resources
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.UserForm.ru.resources
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.VideoForm.ru.resources
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.AddingUserForm.resources
+D:\Study\С#\TeamProject\Learning-platform\LearningPlatform\obj\Debug\net7.0-windows\LearningPlatform.View.AddingUserForm.ru.resources

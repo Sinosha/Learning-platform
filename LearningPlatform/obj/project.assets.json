@@ -3495,11 +3495,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\С#\\Project\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
+      "projectUniqueName": "D:\\Study\\С#\\TeamProject\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
       "projectName": "LearningPlatform",
-      "projectPath": "D:\\Study\\С#\\Project\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
+      "projectPath": "D:\\Study\\С#\\TeamProject\\Learning-platform\\LearningPlatform\\LearningPlatform.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\С#\\Project\\Learning-platform\\LearningPlatform\\obj\\",
+      "outputPath": "D:\\Study\\С#\\TeamProject\\Learning-platform\\LearningPlatform\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\SDK\\NuGetPackages"

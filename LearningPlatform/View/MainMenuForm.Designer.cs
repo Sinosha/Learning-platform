@@ -34,6 +34,7 @@
             this.TestsButton = new System.Windows.Forms.Button();
             this.LabelName = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.AdminButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             this.ArticlesButton.BackColor = System.Drawing.Color.Transparent;
             this.ArticlesButton.Name = "ArticlesButton";
             this.ArticlesButton.UseVisualStyleBackColor = false;
+            this.ArticlesButton.Click += new System.EventHandler(this.ArticlesButton_Click_1);
             // 
             // VideoButton
             // 
@@ -50,6 +52,7 @@
             this.VideoButton.BackColor = System.Drawing.Color.Transparent;
             this.VideoButton.Name = "VideoButton";
             this.VideoButton.UseVisualStyleBackColor = false;
+            this.VideoButton.Click += new System.EventHandler(this.VideoButton_Click_1);
             // 
             // TestsButton
             // 
@@ -57,6 +60,7 @@
             this.TestsButton.BackColor = System.Drawing.Color.Transparent;
             this.TestsButton.Name = "TestsButton";
             this.TestsButton.UseVisualStyleBackColor = false;
+            this.TestsButton.Click += new System.EventHandler(this.TestsButton_Click_1);
             // 
             // LabelName
             // 
@@ -70,10 +74,19 @@
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
+            // AdminButton
+            // 
+            resources.ApplyResources(this.AdminButton, "AdminButton");
+            this.AdminButton.BackColor = System.Drawing.Color.Transparent;
+            this.AdminButton.Name = "AdminButton";
+            this.AdminButton.UseVisualStyleBackColor = false;
+            this.AdminButton.Click += new System.EventHandler(this.AdminButton_Click);
+            // 
             // MainMenuForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.AdminButton);
             this.Controls.Add(this.ArticlesButton);
             this.Controls.Add(this.VideoButton);
             this.Controls.Add(this.TestsButton);
@@ -93,5 +106,6 @@
         private Button TestsButton;
         private Label LabelName;
         private PictureBox pictureBox2;
+        private Button AdminButton;
     }
 }

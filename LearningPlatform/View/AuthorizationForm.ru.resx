@@ -1966,25 +1966,6 @@
   <data name="PasswordCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 24</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Label.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 319</value>
-  </data>
-  <data name="Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="Label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>626, 24</value>
-  </data>
-  <data name="Label.Text" xml:space="preserve">
-    <value>Неправильный логин или пароль, проверьте правильность их написания.</value>
-  </data>
-  <data name="Label.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>13, 24</value>
   </data>

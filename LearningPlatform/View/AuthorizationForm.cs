@@ -4,15 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms.Design;
 using Pbkdf2;
-using LearningPlatform.Classes;
+using LearningPlatform.Controller;
 
 namespace LearningPlatform
 {
     public partial class AuthorizationForm : Form
     {
-        private readonly LearningPlatformDbContext _context;
-        public User user = new User();
-        public Encrypt encrypt = new Encrypt();
+
 
         public AuthorizationForm()
         {
@@ -42,30 +40,36 @@ namespace LearningPlatform
             }
         }
 
-        private void InputButton_Click(object sender, EventArgs e)
+        private async void InputButton_Click_1(object sender, EventArgs e)
         {
-            user = _context.ApplicationUsers.FirstOrDefault(l => l.Login == LoginTextBox.Text);
-            string tempPassword = PasswordTextBox.Text;
+            if (string.IsNullOrWhiteSpace(LoginTextBox.Text))
+            {
+                PasswordTextBox.BackColor = Color.White;
+                LoginTextBox.BackColor = Color.Red;
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(PasswordTextBox.Text))
+            {
+                LoginTextBox.BackColor = Color.White;
+                PasswordTextBox.BackColor = Color.Red;
+                return;
+            }
+            User ?user = await Authorization.instance.GetUser(LoginTextBox.Text, PasswordTextBox.Text);
             if (user != null)
             {
-                if ((encrypt.HashPassword(tempPassword, user.Salt)) == user.Password)
-                {
-                    this.Close();
-                    new MainMenuForm(user).ShowDialog();
-                }
-                else
-                {
-                    Label.Visible = true;
-                }
 
+                this.Visible = false;
+                if (new MainMenuForm(user).ShowDialog() == DialogResult.Cancel) Close();
             }
             else
             {
-                Label.Visible = true;
+                MessageBox.Show("¬веден не верный логин или пароль!");
+                LoginTextBox.BackColor = Color.Red;
+                PasswordTextBox.BackColor = Color.Red;
+
             }
+
         }
-
-
     }
 
 }
